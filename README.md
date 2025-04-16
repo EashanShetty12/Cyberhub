@@ -6,31 +6,31 @@ This project uses SecBERT and machine learning techniques to detect phishing URL
 
 🚀 Features
 
-Load and preprocess phishing and benign URL datasets
+*Load and preprocess phishing and benign URL datasets
 
-Generate embeddings using SecBERT
+*Generate embeddings using SecBERT
 
-Train a logistic regression model for classification
+*Train a logistic regression model for classification
 
-Evaluate model performance
+*Evaluate model performance
 
-Predict if a URL is phishing or legitimate
+*Predict if a URL is phishing or legitimate
 
 🧠 Model
 
-Tokenizer & Embeddings: jackaduma/SecBERT
+*Tokenizer & Embeddings: jackaduma/SecBERT
 
-Classifier: Logistic Regression using Scikit-learn
+*Classifier: Logistic Regression using Scikit-learn
 
 📦 Requirements
 
-pip install torch transformers pandas scikit-learn joblib
+*pip install torch transformers pandas scikit-learn joblib
 
 📂 Dataset
 
-Phishing URLs: PhishTank
+*Phishing URLs: PhishTank
 
-Benign URLs: Manually curated from trusted websites (Google, Facebook, etc.)
+*Benign URLs: Manually curated from trusted websites (Google, Facebook, etc.)
 
 🛠️ Usage
 
